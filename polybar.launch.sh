@@ -6,5 +6,5 @@ polybar-msg cmd quit
 # Otherwise you can use the nuclear option:
 # killall -q polybar
 
-MONITOR=HDMI-1 polybar monitor1 & disown
-MONITOR=HDMI-2 polybar monitor1 & disown
+MONITOR=DisplayPort-0 polybar monitor1 & disown
+MONITOR=HDMI-A-0 polybar monitor1 & disown
