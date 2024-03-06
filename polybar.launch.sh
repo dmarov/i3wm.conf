@@ -7,3 +7,4 @@ polybar-msg cmd quit
 # killall -q polybar
 
 MONITOR=eDP polybar monitor1 & disown
+MONITOR=DisplayPort-0 polybar monitor1 & disown
